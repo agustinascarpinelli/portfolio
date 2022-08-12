@@ -1,0 +1,41 @@
+.contact-form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex: 1;
+    text-align: center;
+}
+
+.contact-form>input{
+    border-radius: 0.4rem;
+    border: none;
+    margin: 1rem;
+}
+.contact-form>textarea{
+    border-radius: 0.4rem;
+    border: none;
+    margin: 1rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 5rem;
+    border-radius: 0.4rem;
+    background-color: var(--lavenderGreyLighter);
+    padding: 1rem;
+}
+
+.contact-left{
+    flex: 1;
+    text-align: center;
+}
+
+.contact-right{
+    flex: 1;
+}
