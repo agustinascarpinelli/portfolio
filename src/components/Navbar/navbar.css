@@ -2,7 +2,7 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     top:0;
    
 }
@@ -30,13 +30,16 @@
 .n-list>ul{
     display: flex;
     gap: 1rem;
-    margin-right: 3rem;
     list-style: none;
+    text-transform: uppercase;
+
+
 }
 
-.n-list>ul:hover{
+.n-list>ul>li>a:hover{
     cursor: pointer;
-    color:var(--superPink)
+    color: var(--violet);
+   
 }
 
 .n-button{
@@ -46,6 +49,8 @@
 .n-name{
     font-weight: bold;
     font-size: 1.5rem;
+    text-transform: uppercase;
+  
 }
 
 @media (max-width:480px) {

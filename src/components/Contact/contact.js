@@ -1,10 +1,14 @@
 import React from "react";
 import './contact.css'
+import { IconName } from "react-icons/io"
+import { FiMail ,FiPhone} from "react-icons/fi";
 const Contact =()=>{
 return(
-    <div className="contact" id="contact-form">
+    <div className="contact shadow" id="Contact">
         <div className="contact-left">
             <h1>Contact me</h1>
+            <a className="contact-a"href="mailto:agustina.scarpinelli@gmail.com" target="_blank"><FiMail/><p>agustina.scarpinelli@gmail.com</p></a>
+            <p><FiPhone/> 1150413703</p>
         </div>
         <div className="contact-right">
             <form className="contact-form" >

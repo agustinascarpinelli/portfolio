@@ -1,4 +1,11 @@
 :root{
+  --magenta:#F20089;
+  --purple-electric:#BC00DD;
+  --purple:#B100E8;
+  --violet:#8900F2;
+  --blue:#2D00F7;
+  --medium-blue:#7A5CFF;
+
   --lavenderGray:#B7B8C5;
   --lavenderGreyLighter:#C9CAD9;
   --lavenderBlue:#D1D2F9;
@@ -14,10 +21,12 @@
   --pearlyPurple:#BD5F9B;
   --onyx:#414146;
   --raisinBlack:#29292C;
+  
 }
 *{
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "GT Walsheim Bold";
+  color: var(--raisinBlack);
   
  
 }
@@ -32,6 +41,13 @@ color:var(--raisinBlack)
   border-radius: 1rem;
   text-transform: uppercase;
   font-weight: bold;
+  border-color: transparent;
+  padding: 0.5rem;
+  background: var(--medium-blue);
+  color:white;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .button:hover{
@@ -40,7 +56,7 @@ color:var(--raisinBlack)
 }
 
 a{
-
+  color: var(--raisinBlack);
     text-decoration: none;
 
 }

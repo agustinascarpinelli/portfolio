@@ -1,0 +1,65 @@
+.toggleLang button {
+border: none;
+	background: none;
+ 
+}
+.toggleLang button img {
+	width: 100%;
+}
+.toggleLang{
+    margin-left: 2rem;
+   background-color: var(--medium-blue);
+    border-radius: 1rem; 
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.toggleLang>*{
+    width:2rem;
+height:2rem;
+
+}
+.toggleTheme{
+    margin-left: 2rem;
+    border-radius: 1rem; 
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    background-color: var(--medium-blue);
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.toggleTheme> *{
+width:2rem;
+height:2rem;
+}
+.toggleTheme button{
+    
+	background: none;
+border:none;}
+
+.toggleTheme button > img{
+    width: 100%;
+}
+.tape{
+    width: 2rem;
+    border-radius: 1rem;
+    background: white;
+    position: absolute;
+    margin:0px;
+    padding: 0px;
+   
+}
+
+.pToggle{
+    font-size: 1rem;
+}

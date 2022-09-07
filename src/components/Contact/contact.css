@@ -25,10 +25,8 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin: 5rem;
-    border-radius: 0.4rem;
-    background-color: var(--lavenderGreyLighter);
-    padding: 1rem;
+
+   
 }
 
 .contact-left{
@@ -38,4 +36,16 @@
 
 .contact-right{
     flex: 1;
+}
+
+.contact-a{
+    text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.contact-a >p{
+    padding: 0.5rem;
 }
