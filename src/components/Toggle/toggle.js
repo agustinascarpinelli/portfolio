@@ -1,9 +1,6 @@
 import React, {useContext}from "react";
 import './toggle.css'
-import flagEs from '../../images/spain.png'
-import flagEn from '../../images/united-kingdom.png'
-import moon from '../../images/moon_night.png'
-import sun from '../../images/sun.png'
+
 import { langContext } from '../../Context/langContext';
 import { themeContext } from "../../Context/themeContext";
 import { FiMoon } from "react-icons/fi";
